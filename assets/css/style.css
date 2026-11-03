@@ -42,3 +42,47 @@ header {
   width: 150px;
   height: 150px;
 }
+
+.services {
+    display: flex;
+}
+
+.services-item {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.services-icon {
+    font-size: 50px;
+}
+
+.services-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.about {
+    display: flex;
+    gap: 20px
+}
+
+.about-icon {
+    font-size: 175px;
+    margin: 70px;
+}
+
+.about-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.about-title {
+    font-size: 20px;
+    font-weight: bold;
+}
