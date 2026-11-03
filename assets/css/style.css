@@ -18,13 +18,13 @@ p {
 }
 
 .dark {
-  background-color: black;
+  background-color: #333333;
   color: white;
 }
 
 .light {
   background-color: white;
-  color: black;
+  color: #333333;
 }
 
 header {
