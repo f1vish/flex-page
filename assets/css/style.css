@@ -13,10 +13,6 @@ h1 {
   font-size: 32px;
 }
 
-p {
-  font-size: 16px;
-}
-
 .dark {
   background-color: #333333;
   color: white;
@@ -27,11 +23,16 @@ p {
   color: #333333;
 }
 
+.services-title,
+.about-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 header {
   height: 100vh;
   padding-bottom: 15%;
   gap: 20px;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,19 +44,41 @@ header {
   height: 150px;
 }
 
-.services {
+.services,
+.about,
+.footer,
+.about-icon {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+}
+
+.services {
+  flex-wrap: wrap;
   gap: 30px;
   padding: 50px 20px;
+}
+
+.about {
+  gap: 40px;
+  max-width: 1000px;
+  margin: 80px auto;
+  padding: 0 50px;
+}
+
+.footer {
+  padding: 30px 0;
+}
+
+.services-item,
+.about-block {
+  display: flex;
+  flex-direction: column;
 }
 
 .services-item {
   flex: 1 1 250px;
   max-width: 350px;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 20px;
 }
@@ -64,44 +87,14 @@ header {
   font-size: 50px;
 }
 
-.services-title {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.about {
-  display: flex;
+.about-block {
+  flex: 1 1 50%;
+  align-items: flex-start;
   justify-content: center;
-  align-items: center;
-  gap: 40px;
-  max-width: 800px;
-  margin: 80px auto;
-  padding: 0 20px;
-  flex-wrap: wrap;
+  text-align: left;
 }
 
 .about-icon {
-  font-size: 100px;
-}
-
-.about-block {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  flex: 1 1 400px;
-  text-align: left;
-  margin-bottom: 10px;
-}
-
-.about-title {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.footer {
-  display: flex;
-  padding: 30px 0;
-  justify-content: center;
-  align-items: center;
+  flex: 1 1 40%;
+  font-size: 180px;
 }
